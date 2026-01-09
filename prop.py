@@ -66,6 +66,8 @@ def check_fullHouse(copied):
     if check_three(copied) and check_pair(copied):
         print("There is a full house")
         return 5
+    elif check_pair:
+        return 1
     return 0
 
 def check_flush(final_cards):
