@@ -1,6 +1,6 @@
 import random
 import copy
-# import msvcrt
+import msvcrt
 
 def draw(drawn, deck):
     repeat = True
